@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$1 gcc -c $CFILE OUTFILE=${CFILE/.c/.o} mv $CFILE.o $OUTFILE ./compile-c-file.sh main.c
+gcc -E $CFILE -o c
