@@ -1,5 +1,2 @@
 #!/bin/bash
-CFILE=$1
-gcc -c $CFILE
-OUTFILE=${CFILE/.c/.o}
-mv $CFILE.o $OUTFILE
+CFILE=$1 gcc -c $CFILE OUTFILE=${CFILE/.c/.o} mv $CFILE.o $OUTFILE
