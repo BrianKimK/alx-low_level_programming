@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print 2 different digits in all possible combinations
+ * main - print two different digits in all possible combinations
  * separated by a comma, followed by a space and in ascending
  * order
  *
@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int digit1, digit2
+	int digit1, digit2;
 
 	for (digit1 = 0; digit1 < 9; digit1++)
 	{
